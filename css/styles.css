@@ -1,0 +1,115 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+p {
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.happy-woman {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.main-container {
+  width: 30%;
+  margin: auto;
+  margin-top: 70px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.summary {
+  margin-top: 20px;
+}
+
+.desc {
+  width: 60%;
+  margin: auto;
+}
+
+.plan {
+  width: 70%;
+  margin: auto;
+  border-radius: 25px;
+  margin-top: 20px;
+  background-color: blue;
+  background-color: hsl(225, 100%, 98%);
+  text-align: left;
+  position: relative;
+  padding: 30px;
+}
+
+.music {
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.change {
+  position: absolute;
+  right: 30px;
+  top: 45%;
+}
+
+.annual {
+   font-weight: 700;
+}
+
+.music-descrpition {
+  line-height: 2;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  width: 58%;
+  font-size: 16px;
+  background: blue;
+  background: hsl(245, 75%, 52%);
+  padding: 16px 50px 16px 50px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.btn:hover {
+  background: #3498db;
+  text-decoration: none;
+}
+
+.cancel {
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 15px;
+}
